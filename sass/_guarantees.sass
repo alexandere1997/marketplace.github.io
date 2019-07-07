@@ -1,0 +1,57 @@
+.guarantees
+  height: 600px
+  margin-top: 98px
+  &__box
+    display: flex
+    justify-content: space-around
+    align-items: center
+    height: 600px
+    background-color: #E6FFEA
+  &__content
+    h3
+      +roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 54px
+      color: #212121
+  &__info
+    margin-top: 40px
+    h3
+      +roboto
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      color: #212121
+    p
+      +roboto
+      font-style: normal
+      font-weight: 300
+      font-size: 14px
+      color: #212121
+  &__image
+    img
+      background-color: #95f3c1
+      padding: 22px
+      opacity: 0.85
+      border-radius: 150px
+
+@media (max-width: 991px)
+  .guarantees__box
+    flex-direction: column
+    height: 890px
+    .guarantees__content
+      padding: 30px
+@media (max-width: 767px)
+  .guarantees__box
+    height: 1020px
+@media (max-width: 575px)
+  .guarantees__box
+    height: 1320px
+  .guarantees__content
+    h3
+      font-size: 27px
+  .guarantees__image
+    img
+      padding: 0
+
+

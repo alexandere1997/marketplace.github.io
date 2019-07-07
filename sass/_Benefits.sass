@@ -1,0 +1,64 @@
+.benefites
+  margin-top: -160px 
+  &__header
+    margin-bottom: 80px
+    margin-top: 80px
+    h3
+      +roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 36px
+      color: #212121
+      margin: 0
+    p
+      +robotoLitgh
+      font-style: normal
+      font-weight: 200
+      margin: 0
+      margin-top: 56px
+      font-size: 18px
+      color: #212121
+  &__box
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-bottom: 60px
+    img
+      display: flex
+      border: 1px solid #EDEDED
+      padding: 26px
+      border-radius: 60px
+      margin-bottom: 30px
+    p
+      +robotoLitgh
+      font-style: normal
+      font-weight: 300
+      font-size: 14px
+      color: #212121
+  &__link
+    display: flex
+    justify-content: center
+    margin-top: 90px
+    a
+      display: flex
+      justify-content: center
+      align-items: center
+      +roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 15px
+      color: #fff
+      width: 240px
+      height: 52px
+      border-radius: 100px
+      background-color: #9787F5
+      transition: 0.4s
+      &:hover
+        text-decoration: none
+        background-color: #767676
+        color: #fff
+@media (max-width: 575px)
+  .benefites__header
+    h3
+      font-size: 27px

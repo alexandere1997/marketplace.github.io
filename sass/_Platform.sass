@@ -1,0 +1,60 @@
+.platform
+  height: 800px
+  &__content
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    height: 800px
+    background-color: #E8F3F7
+    background: url("../img/platform/image3.png") no-repeat center center
+    background-size: cover
+  &__wrapper
+    margin-left: 85px
+    h3
+      +roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 54px
+      color: #212121
+    p
+      +robotoLitgh
+      font-style: normal
+      font-weight: 300
+      font-size: 14px
+      color: #212121
+  &__block
+    display: flex
+    justify-content:  space-around
+  &__box
+    img
+      background-color: #fff
+      border: 1px solid #EDEDED
+      padding: 26px
+      border-radius: 60px
+      margin-bottom: 30px
+    p
+      +robotoLitgh
+      font-style: normal
+      font-weight: 300
+      font-size: 14px
+      color: #212121
+@media (max-width: 991px)
+  .platform
+    margin-top: 460px
+    height: 1000px
+    .platform__content
+      height: 1000px
+    .platform__block
+      flex-direction: column
+@media (max-width: 767px)
+  .platform
+    margin-top: 550px
+    height: 1200
+    .platform__content
+      height: 1200px
+@media (max-width: 575px)
+  .platform__wrapper
+    text-align: center
+    margin-left: 0
+    h3
+      font-size: 27px
