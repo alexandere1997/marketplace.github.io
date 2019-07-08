@@ -1144,14 +1144,14 @@
     margin-top: 79px;
   }
   .marketplace .marketplace__info2 {
-    top: -1160px;
+    top: -1140px;
     left: 446px;
     z-index: 4;
   }
   .marketplace .marketplace__info2::after {
     margin-top: 321px;
-    -webkit-transform: rotate(-129deg) translateX(236px);
-            transform: rotate(-129deg) translateX(236px);
+    -webkit-transform: rotate(-129deg) translateX(250px);
+            transform: rotate(-129deg) translateX(250px);
   }
   .marketplace .marketplace__info3 {
     top: -705px;
@@ -1160,12 +1160,12 @@
   }
   .marketplace .marketplace__info4 {
     z-index: 4;
-    top: -339px;
+    top: -302px;
     left: 445px;
   }
   .marketplace .marketplace__info4::before {
-    -webkit-transform: rotate(45deg) translateX(75px);
-            transform: rotate(45deg) translateX(75px);
+    -webkit-transform: rotate(90deg) translateX(42px) translateY(-66px);
+            transform: rotate(90deg) translateX(42px) translateY(-66px);
     margin-top: -177px;
   }
   .marketplace .marketplace__info5 {
@@ -1205,7 +1205,7 @@
     z-index: 4;
   }
   .marketplace .marketplace__info2 {
-    top: -1160px;
+    top: -1140px;
     left: 325px;
     z-index: 4;
   }
@@ -1216,7 +1216,7 @@
   }
   .marketplace .marketplace__info4 {
     z-index: 4;
-    top: -339px;
+    top: -302px;
     left: 325px;
   }
   .marketplace .marketplace__info5 {
@@ -1233,7 +1233,7 @@
     z-index: 4;
   }
   .marketplace .marketplace__info2 {
-    top: -1160px;
+    top: -1140px;
     left: 235px;
     z-index: 4;
   }
@@ -1244,7 +1244,7 @@
   }
   .marketplace .marketplace__info4 {
     z-index: 4;
-    top: -339px;
+    top: -302px;
     left: 235px;
   }
   .marketplace .marketplace__info5 {
@@ -1279,7 +1279,7 @@
     z-index: 4;
   }
   .marketplace__wrapper .marketplace__info2 {
-    top: -1160px;
+    top: -1140px;
     left: 60px;
     z-index: 4;
   }
@@ -1290,8 +1290,8 @@
   }
   .marketplace__wrapper .marketplace__info4 {
     z-index: 4;
-    top: -339px;
-    left: 60px;
+    top: -302px;
+    left: 66px;
   }
   .marketplace__wrapper .marketplace__info5 {
     z-index: 4;
